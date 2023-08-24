@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #e0eef3;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.main-container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border:  1px solid #ccc;
+  border-radius: 10px;
+  background-color: white;
+}
+
+h1{
+  color: rgb(167, 74, 119);
+  font-size: 45px;
+}
+
+input{
+  height: 35px;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.add-list{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.menu-bar{
+  display: flex;
+  gap: 1.5rem;
+  font-size: 12px;
+  margin: 12px;
+  cursor: pointer;
+  color: rgb(167, 74, 119);
+}
+
+.menu-bar h2:hover,
+.menu-bar h2:focus,
+.menu-bar h2:focus .all,
+.menu-bar h2:focus .pending,
+.menu-bar h2:focus .completed {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+li{
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+button{
+  height: 30px;
+  width: 60px;
+  background-color: rgb(167, 74, 119);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 1.05rem;
+  cursor: pointer;
+}
